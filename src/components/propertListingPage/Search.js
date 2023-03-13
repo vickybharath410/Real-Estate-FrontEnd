@@ -15,7 +15,7 @@ function Search({ values }) {
 
     axios
       .patch(
-        `https://real-estate-catalog-back-end.vercel.app/api/property/sold/${details._id}`,
+        `https://real-estate-back-end.vercel.app/api/property/sold/${details._id}`,
         data,
         {
           headers: {

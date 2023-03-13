@@ -27,7 +27,7 @@ function LocationInfo({
     let token = localStorage.getItem("token");
     let id = localStorage.getItem("userID");
 
-    let url = "https://real-estate-catalog-back-end.vercel.app/api/property";
+    let url = "https://real-estate-back-end.vercel.app/api/property";
     // console.log(id);
     console.log(formData);
     axios

@@ -41,7 +41,7 @@ function Register() {
 
     axios
       .post(
-        "https://real-estate-catalog-back-end.vercel.app/api/users/signup",
+        "https://real-estate-back-end.vercel.app/api/users/signup",
         {
           email: email,
           password: password,

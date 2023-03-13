@@ -18,7 +18,7 @@ function Table() {
     setPathFlag(true);
     console.log(path);
   }
-  let url = "https://real-estate-catalog-back-end.vercel.app/api/property";
+  let url = "https://real-estate-back-end.vercel.app/api/property";
   useEffect(() => {
     fetch(url, {
       method: "GET",

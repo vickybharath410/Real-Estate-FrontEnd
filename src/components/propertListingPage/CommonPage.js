@@ -106,7 +106,7 @@ function CommonPage() {
     let userid = localStorage.getItem("email");
     console.log(token, id);
     setSearchFlag(true);
-    let url = `https://real-estate-catalog-back-end.vercel.app/api/search/${searchId}/${userid}`;
+    let url = `https://real-estate-back-end.vercel.app/api/search/${searchId}/${userid}`;
     axios
       .get(url)
       .then((res) => {

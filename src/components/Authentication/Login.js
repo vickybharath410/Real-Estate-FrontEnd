@@ -17,7 +17,7 @@ function Login() {
   async function onsubmits(e) {
     e.preventDefault(e);
     const { userid, password } = details;
-    let url = "https://real-estate-catalog-back-end.vercel.app/api/users/login";
+    let url = "https://real-estate-back-end.vercel.app/api/users/login";
     axios
       .post(url, {
         email: userid,
